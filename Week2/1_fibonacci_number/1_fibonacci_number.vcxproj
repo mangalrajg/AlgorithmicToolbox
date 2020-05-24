@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5eee6e03-1c24-4418-9ac0-7134e242d78c}</ProjectGuid>
-    <RootNamespace>MaximumPairwise</RootNamespace>
+    <ProjectGuid>{45fe7f62-733b-46b8-8cba-abec5ab50266}</ProjectGuid>
+    <RootNamespace>My1fibonaccinumber</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,10 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MaximumPairwise.cpp" />
+    <ClCompile Include="1_fibonacci_number.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="readme.md" />
+    <None Include="Readme.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

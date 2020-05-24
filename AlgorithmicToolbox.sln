@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaximumPairwise", "MaximumPairwise\MaximumPairwise.vcxproj", "{5EEE6E03-1C24-4418-9AC0-7134E242D78C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_maximum_pairwise_product", "Week1\2_maximum_pairwise_product\MaximumPairwise.vcxproj", "{5EEE6E03-1C24-4418-9AC0-7134E242D78C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_fibonacci_number", "1_fibonacci_number\1_fibonacci_number.vcxproj", "{45FE7F62-733B-46B8-8CBA-ABEC5AB50266}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_fibonacci_number", "Week2\1_fibonacci_number\1_fibonacci_number.vcxproj", "{45FE7F62-733B-46B8-8CBA-ABEC5AB50266}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_last_digit_of_fibonacci_number", "Week2\2_last_digit_of_fibonacci_number\2_last_digit_of_fibonacci_number.vcxproj", "{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week1", "Week1", "{1CCBFD1B-3DAB-4E77-AD1C-95EA3F8F3C5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week2", "Week2", "{207F83FF-585A-41B4-B37B-649D48C3E95B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_greatest_common_divisor", "Week2\3_greatest_common_divisor\3_greatest_common_divisor.vcxproj", "{AEA3833C-3A5A-404D-9EB2-FF5D48277085}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,9 +39,31 @@ Global
 		{45FE7F62-733B-46B8-8CBA-ABEC5AB50266}.Release|x64.Build.0 = Release|x64
 		{45FE7F62-733B-46B8-8CBA-ABEC5AB50266}.Release|x86.ActiveCfg = Release|Win32
 		{45FE7F62-733B-46B8-8CBA-ABEC5AB50266}.Release|x86.Build.0 = Release|Win32
+		{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9}.Debug|x64.ActiveCfg = Debug|x64
+		{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9}.Debug|x64.Build.0 = Debug|x64
+		{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9}.Debug|x86.Build.0 = Debug|Win32
+		{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9}.Release|x64.ActiveCfg = Release|x64
+		{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9}.Release|x64.Build.0 = Release|x64
+		{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9}.Release|x86.ActiveCfg = Release|Win32
+		{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9}.Release|x86.Build.0 = Release|Win32
+		{AEA3833C-3A5A-404D-9EB2-FF5D48277085}.Debug|x64.ActiveCfg = Debug|x64
+		{AEA3833C-3A5A-404D-9EB2-FF5D48277085}.Debug|x64.Build.0 = Debug|x64
+		{AEA3833C-3A5A-404D-9EB2-FF5D48277085}.Debug|x86.ActiveCfg = Debug|Win32
+		{AEA3833C-3A5A-404D-9EB2-FF5D48277085}.Debug|x86.Build.0 = Debug|Win32
+		{AEA3833C-3A5A-404D-9EB2-FF5D48277085}.Release|x64.ActiveCfg = Release|x64
+		{AEA3833C-3A5A-404D-9EB2-FF5D48277085}.Release|x64.Build.0 = Release|x64
+		{AEA3833C-3A5A-404D-9EB2-FF5D48277085}.Release|x86.ActiveCfg = Release|Win32
+		{AEA3833C-3A5A-404D-9EB2-FF5D48277085}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EEE6E03-1C24-4418-9AC0-7134E242D78C} = {1CCBFD1B-3DAB-4E77-AD1C-95EA3F8F3C5F}
+		{45FE7F62-733B-46B8-8CBA-ABEC5AB50266} = {207F83FF-585A-41B4-B37B-649D48C3E95B}
+		{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9} = {207F83FF-585A-41B4-B37B-649D48C3E95B}
+		{AEA3833C-3A5A-404D-9EB2-FF5D48277085} = {207F83FF-585A-41B4-B37B-649D48C3E95B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D33A1F2-EAE6-40B8-AE4E-7092C6B8AFF0}
