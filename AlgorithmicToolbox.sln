@@ -9,11 +9,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_fibonacci_number", "Week2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_last_digit_of_fibonacci_number", "Week2\2_last_digit_of_fibonacci_number\2_last_digit_of_fibonacci_number.vcxproj", "{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week1", "Week1", "{1CCBFD1B-3DAB-4E77-AD1C-95EA3F8F3C5F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week1_programming_challenges", "week1_programming_challenges", "{1CCBFD1B-3DAB-4E77-AD1C-95EA3F8F3C5F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week2", "Week2", "{207F83FF-585A-41B4-B37B-649D48C3E95B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week2_algorithmic_warmup", "week2_algorithmic_warmup", "{207F83FF-585A-41B4-B37B-649D48C3E95B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_greatest_common_divisor", "Week2\3_greatest_common_divisor\3_greatest_common_divisor.vcxproj", "{AEA3833C-3A5A-404D-9EB2-FF5D48277085}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_least_common_multiple", "Week2\4_least_common_multiple\4_least_common_multiple.vcxproj", "{6DCF7FB9-682D-480D-91A1-42C250E1163C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,14 @@ Global
 		{AEA3833C-3A5A-404D-9EB2-FF5D48277085}.Release|x64.Build.0 = Release|x64
 		{AEA3833C-3A5A-404D-9EB2-FF5D48277085}.Release|x86.ActiveCfg = Release|Win32
 		{AEA3833C-3A5A-404D-9EB2-FF5D48277085}.Release|x86.Build.0 = Release|Win32
+		{6DCF7FB9-682D-480D-91A1-42C250E1163C}.Debug|x64.ActiveCfg = Debug|x64
+		{6DCF7FB9-682D-480D-91A1-42C250E1163C}.Debug|x64.Build.0 = Debug|x64
+		{6DCF7FB9-682D-480D-91A1-42C250E1163C}.Debug|x86.ActiveCfg = Debug|Win32
+		{6DCF7FB9-682D-480D-91A1-42C250E1163C}.Debug|x86.Build.0 = Debug|Win32
+		{6DCF7FB9-682D-480D-91A1-42C250E1163C}.Release|x64.ActiveCfg = Release|x64
+		{6DCF7FB9-682D-480D-91A1-42C250E1163C}.Release|x64.Build.0 = Release|x64
+		{6DCF7FB9-682D-480D-91A1-42C250E1163C}.Release|x86.ActiveCfg = Release|Win32
+		{6DCF7FB9-682D-480D-91A1-42C250E1163C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +74,7 @@ Global
 		{45FE7F62-733B-46B8-8CBA-ABEC5AB50266} = {207F83FF-585A-41B4-B37B-649D48C3E95B}
 		{C15FEE42-8A47-4788-ADCD-2FC02B7E66B9} = {207F83FF-585A-41B4-B37B-649D48C3E95B}
 		{AEA3833C-3A5A-404D-9EB2-FF5D48277085} = {207F83FF-585A-41B4-B37B-649D48C3E95B}
+		{6DCF7FB9-682D-480D-91A1-42C250E1163C} = {207F83FF-585A-41B4-B37B-649D48C3E95B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D33A1F2-EAE6-40B8-AE4E-7092C6B8AFF0}

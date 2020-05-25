@@ -1,20 +1,30 @@
-// 3_greatest_common_divisor.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int gcd_naive(int a, int b) {
+    int current_gcd = 1;
+    for (int d = 2; d <= a && d <= b; d++) {
+        if (a % d == 0 && b % d == 0) {
+            if (d > current_gcd) {
+                current_gcd = d;
+            }
+        }
+    }
+    return current_gcd;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+long long gcd_fast(long long a, long long b)
+{
+    long long rem = a % b;
+    if (rem == 0)
+        return b;
+    
+    return gcd_fast(b, rem);
+}
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+int main() {
+    int a, b;
+    std::cin >> a >> b;
+    //std::cout << gcd_naive(a, b) << std::endl;
+    std::cout << gcd_fast(a, b) << std::endl;
+    return 0;
+}
